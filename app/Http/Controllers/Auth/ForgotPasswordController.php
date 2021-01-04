@@ -19,6 +19,7 @@ class ForgotPasswordController extends Controller
     */
 
     use SendsPasswordResetEmails;
+    use \AbstractTrait;
 
     /**
      * Create a new controller instance.
